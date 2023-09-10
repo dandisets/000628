@@ -14,12 +14,12 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 26544789012
-  numberOfFiles: 1265
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 34781462476
+  numberOfFiles: 1434
   numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
@@ -27,9 +27,9 @@ assetsSummary:
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
   - EyeTracking
   - SpatialSeries
+  - ProcessingModule
 citation: Xiao, Will (2023) Extracellular recording along macaque ventral stream during
   natural image free viewing (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
