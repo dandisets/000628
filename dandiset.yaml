@@ -18,9 +18,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 34781462476
-  numberOfFiles: 1434
-  numberOfSubjects: 9
+  numberOfBytes: 38454018388
+  numberOfFiles: 1693
+  numberOfSubjects: 11
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
@@ -41,7 +41,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-09-09T01:39:26.115969+00:00'
-datePublished: '2023-09-10T19:56:57.049801+00:00'
+datePublished: '2023-09-10T22:54:05.088113+00:00'
 description: Recordings spanning six areas in the macaque ventral stream (V1, V2 ,V4,
   PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883
   hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more
@@ -56,13 +56,13 @@ manifestLocation:
 name: Extracellular recording along macaque ventral stream during natural image free
   viewing
 publishedBy:
-  endDate: '2023-09-10T19:56:57.049801+00:00'
-  id: urn:uuid:c2c66bb7-7c1b-4877-aff7-7123c79d3ff0
+  endDate: '2023-09-10T22:54:05.088113+00:00'
+  id: urn:uuid:c073fe9d-031d-4324-912a-a2aea50d5832
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-09-10T19:56:57.049801+00:00'
+  startDate: '2023-09-10T22:54:05.088113+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0aa5c0ee-5076-46d3-a58f-b06baa81873e
+  - id: urn:uuid:c0ba6119-7623-4e36-9343-4308d3c0ee27
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
