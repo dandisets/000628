@@ -6,11 +6,32 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 2044326712
+  numberOfFiles: 97
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - EyeTracking
+  - SpatialSeries
 citation: Xiao, Will (2023) Extracellular recording along macaque ventral stream during
-  natural image free viewing (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000628/draft
+  natural image free viewing (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: xiaow@g.harvard.edu
@@ -20,10 +41,12 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-09-09T01:39:26.115969+00:00'
+datePublished: '2023-09-10T16:59:49.363989+00:00'
 description: Recordings spanning six areas in the macaque ventral stream (V1, V2 ,V4,
   PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883
   hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more
   information, see the preprint at https://doi.org/10.1101/2023.02.08.527666
+doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000628/draft
 identifier: DANDI:000628
 license:
@@ -32,6 +55,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000628/versions/draft/assets/
 name: Extracellular recording along macaque ventral stream during natural image free
   viewing
+publishedBy:
+  endDate: '2023-09-10T16:59:49.363989+00:00'
+  id: urn:uuid:ba9b81e4-b0c5-465d-9565-16def358435c
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-09-10T16:59:49.363989+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:d0aa9047-a448-4e4d-b8da-a9d608715c88
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
