@@ -18,13 +18,16 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 40678206135
-  numberOfFiles: 1780
-  numberOfSubjects: 11
+  numberOfBytes: 43996406363
+  numberOfFiles: 1915
+  numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
     name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9545
+    name: Macaca nemestrina - Pigtail macaque
     schemaKey: SpeciesType
   variableMeasured:
   - EyeTracking
@@ -41,7 +44,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-09-09T01:39:26.115969+00:00'
-datePublished: '2023-09-10T22:54:05.088113+00:00'
+datePublished: '2023-09-11T18:50:38.271741+00:00'
 description: Recordings spanning six areas in the macaque ventral stream (V1, V2 ,V4,
   PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883
   hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more
@@ -56,13 +59,13 @@ manifestLocation:
 name: Extracellular recording along macaque ventral stream during natural image free
   viewing
 publishedBy:
-  endDate: '2023-09-10T22:54:05.088113+00:00'
-  id: urn:uuid:c073fe9d-031d-4324-912a-a2aea50d5832
+  endDate: '2023-09-11T18:50:38.271741+00:00'
+  id: urn:uuid:ae651754-bd79-4489-b445-c8d711599b3f
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-09-10T22:54:05.088113+00:00'
+  startDate: '2023-09-11T18:50:38.271741+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:c0ba6119-7623-4e36-9343-4308d3c0ee27
+  - id: urn:uuid:63eabc64-bf4d-4558-8f40-69f4949a9ec1
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
