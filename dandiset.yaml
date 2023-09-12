@@ -106,6 +106,7 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2023-09-09T01:39:26.115969+00:00'
+datePublished: '2023-09-12T02:01:34.143114+00:00'
 description: Recordings spanning six areas in the macaque ventral stream (V1, V2 ,V4,
   PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883
   hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more
@@ -127,6 +128,18 @@ name: Extracellular recording along macaque ventral stream during natural image 
   viewing
 protocol:
 - https://doi.org/10.1101/2023.02.08.527666
+publishedBy:
+  endDate: '2023-09-12T02:01:34.143114+00:00'
+  id: urn:uuid:02c650cd-f601-45fb-80e8-5bad257f5711
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-09-12T02:01:34.143114+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:90de85d6-d642-4069-a3ca-87e56dbb55b6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
