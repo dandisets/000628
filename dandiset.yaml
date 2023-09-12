@@ -36,7 +36,7 @@ assetsSummary:
   - ProcessingModule
 citation: Xiao, Will; Sharma, Saloni; Kreiman, Gabriel; Livingstone, Margaret (2023)
   Extracellular recording along macaque ventral stream during natural image free viewing
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000628/draft
+  (Version 0.230912.0201) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000628/0.230912.0201
 contributor:
 - affiliation:
   - name: Harvard Medical Schoo
@@ -106,12 +106,14 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2023-09-09T01:39:26.115969+00:00'
+datePublished: '2023-09-12T02:01:34.143114+00:00'
 description: Recordings spanning six areas in the macaque ventral stream (V1, V2 ,V4,
   PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883
   hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more
   information, see the preprint at https://doi.org/10.1101/2023.02.08.527666
+doi: 10.48324/dandi.000628/0.230912.0201
 ethicsApproval: []
-id: DANDI:000628/draft
+id: DANDI:000628/0.230912.0201
 identifier: DANDI:000628
 keywords:
 - Macaque
@@ -122,11 +124,23 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000628/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000628/0.230912.0201/assets.yaml
 name: Extracellular recording along macaque ventral stream during natural image free
   viewing
 protocol:
 - https://doi.org/10.1101/2023.02.08.527666
+publishedBy:
+  endDate: '2023-09-12T02:01:34.143114+00:00'
+  id: urn:uuid:02c650cd-f601-45fb-80e8-5bad257f5711
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-09-12T02:01:34.143114+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:90de85d6-d642-4069-a3ca-87e56dbb55b6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
@@ -134,6 +148,6 @@ schemaVersion: 0.6.4
 studyTarget:
 - Testing neuronal spatial, temporal, and featural selectivity in the ventral visual
   pathway during minimally constrained viewing of natural images
-url: https://dandiarchive.org/dandiset/000628/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000628/0.230912.0201
+version: 0.230912.0201
 wasGeneratedBy: []
