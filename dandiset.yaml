@@ -15,9 +15,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   numberOfBytes: 52741296155
   numberOfFiles: 2037
@@ -31,11 +31,11 @@ assetsSummary:
     name: Macaca nemestrina - Pigtail macaque
     schemaKey: SpeciesType
   variableMeasured:
+  - ProcessingModule
   - EyeTracking
   - SpatialSeries
-  - ProcessingModule
 citation: Xiao, Will; Sharma, Saloni; Kreiman, Gabriel; Livingstone, Margaret; National
-  Institutes of Health (2023) Extracellular recording along macaque ventral stream
+  Institutes of Health (2024) Extracellular recording along macaque ventral stream
   during natural image free viewing (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000628/draft
 contributor:
 - affiliation:
@@ -113,7 +113,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-09-09T01:39:26.115969+00:00'
-datePublished: '2023-09-22T16:42:09.296851+00:00'
 description: Recordings spanning six areas in the macaque ventral stream (V1, V2 ,V4,
   PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883
   hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more
@@ -134,19 +133,7 @@ manifestLocation:
 name: Extracellular recording along macaque ventral stream during natural image free
   viewing
 protocol:
-- https://doi.org/10.1101/2023.02.08.527666
-publishedBy:
-  endDate: '2023-09-22T16:42:09.296851+00:00'
-  id: urn:uuid:acdab6da-59da-43e6-a544-58a2661f59d2
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-09-22T16:42:09.296851+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:6a2fa8dc-3349-4d82-8092-5650f55b872f
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
+- https://www.nature.com/articles/s41593-024-01631-5
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
