@@ -35,8 +35,9 @@ assetsSummary:
   - EyeTracking
   - SpatialSeries
 citation: Xiao, Will; Sharma, Saloni; Kreiman, Gabriel; Livingstone, Margaret; National
-  Institutes of Health (2024) Extracellular recording along macaque ventral stream
-  during natural image free viewing (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000628/draft
+  Institutes of Health (2024) Extracellular recording along macaque ventral visual
+  pathway during natural image free viewing (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000628/draft
 contributor:
 - affiliation:
   - name: Harvard Medical Schoo
@@ -113,11 +114,27 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-09-09T01:39:26.115969+00:00'
-description: Recordings spanning six areas in the macaque ventral stream (V1, V2 ,V4,
-  PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental sessions, 883
-  hours, 13 monkeys, 4.6 million fixations, and thousands of natural images. For more
-  information, see the preprint at https://doi.org/10.1101/2023.02.08.527666
-ethicsApproval: []
+datePublished: '2024-05-01T19:12:21.757744+00:00'
+description: 'Recordings spanning six areas in the macaque ventral visual pathway
+  (V1, V2 ,V4, PIT, CIT, AIT; primarily in CIT and AIT) including 679 experimental
+  sessions, 883 hours, 13 monkeys, 4.6 million fixations, and thousands of natural
+  images. For more information, see the journal article: https://www.nature.com/articles/s41593-024-01631-5.
+
+
+  For example code using these files, see the GitHub repository linked below under
+  Related resources, containing code to reprocude the paper analyses. Please note
+  that the NWB files hosted here are organized somewhat differently from the code
+  examples, so please adapt the code accordingly.
+
+
+  To interactively explore the NWB files, a useful tool is HDFView (https://www.hdfgroup.org/downloads/hdfview/).'
+ethicsApproval:
+- contactPoint:
+    email: IACUC@hms.harvard.edu
+    schemaKey: ContactPoint
+    url: https://iacuc.hms.harvard.edu/
+  identifier: HMS IACUC IS00001049
+  schemaKey: EthicsApproval
 id: DANDI:000628/draft
 identifier: DANDI:000628
 keywords:
@@ -130,17 +147,49 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000628/versions/draft/assets/
-name: Extracellular recording along macaque ventral stream during natural image free
-  viewing
+name: Extracellular recording along macaque ventral visual pathway during natural
+  image free viewing
 protocol:
 - https://www.nature.com/articles/s41593-024-01631-5
-relatedResource: []
+publishedBy:
+  endDate: '2024-05-01T19:12:21.757744+00:00'
+  id: urn:uuid:9036975f-bdce-4bca-983d-b501768d9357
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-01T19:12:21.757744+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:38de3ed4-6aaf-48b8-9e32-f95abfe16059
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- identifier: https://www.nature.com/articles/s41593-024-01631-5
+  name: Journal article
+  relation: dcite:IsPublishedIn
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41593-024-01631-5
+- identifier: https://github.com/willwx/free_viewing
+  name: Related code
+  relation: dcite:IsReferencedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/willwx/free_viewing
+- identifier: https://osf.io/sde8m
+  name: Non-NWB data
+  relation: dcite:IsSupplementedBy
+  repository: Open Science Framework
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://osf.io/sde8m
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget:
-- Testing neuronal spatial, temporal, and featural selectivity in the ventral visual
-  pathway during minimally constrained viewing of natural images
+- Testing neuronal selectivity during naturalistic free viewing
 url: https://dandiarchive.org/dandiset/000628/draft
 version: draft
 wasGeneratedBy: []
